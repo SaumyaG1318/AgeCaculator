@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="dob">
+        <div class="input-box">
+          <div id="title-1" class="title">D A Y</div>
+          <div class="text-holder">
+            <input id="input-1" type="text" placeholder="DD" />
+          </div>
+          <div class="error error-1a"><p>Field Required</p></div>
+          <div class="error error-1b"><p>Must be valid day</p></div>
+        </div>
+        <div class="input-box">
+          <div id="title-2" class="title">M O N T H</div>
+          <div class="text-holder">
+            <input id="input-2" type="text" placeholder="MM" />
+          </div>
+          <div class="error error-2a"><p>Field Required</p></div>
+          <div class="error error-2b"><p>Must be a valid month</p></div>
+        </div>
+        <div class="input-box">
+          <div id="title-3" class="title">Y E A R</div>
+          <div class="text-holder">
+            <input id="input-3" type="text" placeholder="YYYY" />
+          </div>
+          <div class="error error-3a"><p>Field Required</p></div>
+          <div class="error error-3b"><p>Must be in past</p></div>
+        </div>
+      </div>
+      <div class="arrow-button">
+        <div class="line-l"><hr /></div>
+        <div class="button">
+          <button></button>
+        </div>
+        <div class="line-2"><hr /></div>
+      </div>
+      <div class="result">
+        <div class="class-r">
+          <span id="result-1">- -</span>
+          <p>years</p>
+        </div>
+        <div class="class-r">
+          <span id="result-2">- -</span>
+          <p>months</p>
+        </div>
+        <div class="class-r">
+          <span id="result-3">- -</span>
+          <p>days</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
